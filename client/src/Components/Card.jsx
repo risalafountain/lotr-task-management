@@ -26,7 +26,7 @@ export default function Card(props) {
         {/* if isEditing is false return card details  : return EditTaskForm*/}
             {!isEditing ?
                 (<div className="card container">
-                    <h4> Title: {title} </h4>
+                    <h4> {title} </h4>
                     <img src={imageUrl}
                         style={{ width: '150px', height: '150px' }}
                     />
